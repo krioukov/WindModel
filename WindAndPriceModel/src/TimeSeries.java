@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Date;
-import java.util.Iterator;
 
 public class TimeSeries {
 	protected ArrayList<Date> times;

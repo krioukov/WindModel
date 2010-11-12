@@ -33,6 +33,7 @@ public class WindModel {
 		double[] params = WeibullDist.getMLE(this.wind_norm.get_values(), this.wind_norm.length());
 		double k = params[0];
 		double lambda = 1 / params[1];
+		
 		System.out.println("k: " + k);
 		System.out.println("lambda: " + lambda);
 	}
